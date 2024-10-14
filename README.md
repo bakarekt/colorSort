@@ -1,2 +1,3 @@
 # colorSort
- do, trang, xanh
+ do, trang, xanh  
+ Sử dụng thuật toán Dutch National Flag
