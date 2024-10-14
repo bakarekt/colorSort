@@ -42,19 +42,19 @@ void sortColors(vector<int>& arr) {
 
 int main() {
     int n;
-    cout << "Nhap so luong mau: ";
+    cout << "Nhập số lượng màu: ";
     cin >> n;
 
     vector<string> colors(n);
     vector<int> colorNumbers(n);
 
-    cout << "Nhap cac mau (do, trang, xanh): ";
+    cout << "Nhập các màu (do, trang, xanh): ";
     for (int i = 0; i < n; i++) {
         cin >> colors[i];
 
         colorNumbers[i] = colorToNumber(colors[i]);
         if (colorNumbers[i] == -1) {
-            cout << "Mau khong hop le, vui long nhap lai." << endl;
+            cout << "Màu không hợp lệ, vui lòng nhập lại!" << endl;
             return 1;
         }
     }
